@@ -4,7 +4,7 @@ IOS宏指令集合
 ## Import
 [CocoaPods](http://cocoapods.org)
 
-`pod 'IOS-QuickDevelopMacros', '~> 1.0.1'`
+`pod 'IOS-QuickDevelopMacros', '~> 1.0.2'`
 
 ## Usage
 ```objective-c
