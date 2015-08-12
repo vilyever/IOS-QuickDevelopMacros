@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "VDQuickDevelopMacros.h"
+
 @interface ViewController ()
+
+@property (nonatomic, copy) NSString *test ;
 
 @end
 
@@ -17,6 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[self class] print:self];
+}
+
++ (void)print:(ViewController *)vc {
+    VDLog(@"%@", VDKeyPath(vc, test));
 }
 
 - (void)didReceiveMemoryWarning {

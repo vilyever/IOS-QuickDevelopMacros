@@ -15,6 +15,7 @@
 		FEF352D61B7ADDA50070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF352D51B7ADDA50070C6D5 /* Images.xcassets */; };
 		FEF352D91B7ADDA50070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF352D71B7ADDA50070C6D5 /* LaunchScreen.xib */; };
 		FEF352E51B7ADDA60070C6D5 /* IOS_QuickDevelopMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352E41B7ADDA60070C6D5 /* IOS_QuickDevelopMacrosTests.m */; };
+		FEF352F21B7ADE260070C6D5 /* IOS-QuickDevelopMacros.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF352EE1B7ADE260070C6D5 /* IOS-QuickDevelopMacros.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		FEF352DE1B7ADDA60070C6D5 /* IOS-QuickDevelopMacrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-QuickDevelopMacrosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF352E31B7ADDA60070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF352E41B7ADDA60070C6D5 /* IOS_QuickDevelopMacrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_QuickDevelopMacrosTests.m; sourceTree = "<group>"; };
+		FEF352EE1B7ADE260070C6D5 /* IOS-QuickDevelopMacros.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "IOS-QuickDevelopMacros.podspec"; sourceTree = "<group>"; };
+		FEF352F31B7ADE610070C6D5 /* VDQuickDevelopMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDQuickDevelopMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				FEF352C41B7ADDA50070C6D5 /* IOS-QuickDevelopMacros */,
 				FEF352E11B7ADDA60070C6D5 /* IOS-QuickDevelopMacrosTests */,
 				FEF352C31B7ADDA50070C6D5 /* Products */,
+				FEF352EE1B7ADE260070C6D5 /* IOS-QuickDevelopMacros.podspec */,
+				FEF352EF1B7ADE260070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +125,30 @@
 				FEF352E31B7ADDA60070C6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF352EF1B7ADE260070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352F01B7ADE260070C6D5 /* Assets */,
+				FEF352F11B7ADE260070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF352F01B7ADE260070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF352F11B7ADE260070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352F31B7ADE610070C6D5 /* VDQuickDevelopMacros.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF352D41B7ADDA50070C6D5 /* Main.storyboard in Resources */,
+				FEF352F21B7ADE260070C6D5 /* IOS-QuickDevelopMacros.podspec in Resources */,
 				FEF352D91B7ADDA50070C6D5 /* LaunchScreen.xib in Resources */,
 				FEF352D61B7ADDA50070C6D5 /* Images.xcassets in Resources */,
 			);
