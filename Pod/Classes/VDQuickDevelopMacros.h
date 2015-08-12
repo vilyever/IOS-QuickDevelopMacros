@@ -108,6 +108,12 @@
         (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #endif
 
+#pragma mark Math
+#if !VDCGFloatSign
+    #define VDFloatSign(float) \
+        (float < 0.0f ? -1.0f : 1.0f)
+#endif
+
 #pragma mark Instance
 #if !VDDefaultNotificationCenter
     #define VDDefaultNotificationCenter \
