@@ -43,4 +43,4 @@ VDColorFromRGBA(0xFFFFFF00);
 ```
 ## License
 
-[MIT license](LICENSE). 
+[MIT license](LICENSE)
